@@ -1,4 +1,4 @@
-name = "insightflare"
+name = "insightflare-hk-vk"
 main = "./src/server.ts"
 compatibility_date = "2026-03-01"
 workers_dev = true
@@ -35,13 +35,13 @@ deleted_classes = ["DiagnosticsSampler"]
 
 [[d1_databases]]
 binding = "DB"
-database_name = "insightflare"
-database_id = "YOUR_D1_ID" # Change this to your own D1 database ID
+database_name = "insightflare-hk-vk"
+database_id = "39e4024a-6122-47c9-90a1-665d4a4c6640"
 migrations_dir = "./migrations"
 
 [[kv_namespaces]]
 binding = "SITE_SETTINGS_KV"
-id = "YOUR_KV_ID" # Change this to your own KV namespace ID
+id = "fa2d3c173a8942e7bad9877cc5d5df63"
 
 [[analytics_engine_datasets]]
 binding = "REQUEST_ANALYTICS"
